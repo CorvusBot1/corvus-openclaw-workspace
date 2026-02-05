@@ -12,3 +12,9 @@ Only commit if there are changes. Don't spam empty commits.
 - Review recent memory files
 - Update MEMORY.md with significant learnings
 - Clean up outdated info
+
+### QMD Index Update (every few hours)
+```bash
+export PATH="$HOME/.bun/bin:$PATH" && qmd update
+```
+Keeps BM25 keyword search fresh as files change. Use `qmd search "query"` for fast local doc retrieval instead of loading full files into context.
