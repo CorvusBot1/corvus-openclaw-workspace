@@ -1,0 +1,56 @@
+{
+  "kingdoms": {
+    "1467991796683505877": {
+      "kingdomId": "pirates",
+      "slug": "stormbreak-confederacy",
+      "name": "Stormbreak Confederacy"
+    },
+    "1468299384012935377": {
+      "kingdomId": "kingdom3",
+      "slug": "ironbound-marches",
+      "name": "Ironbound Marches"
+    },
+    "1469021651801739306": {
+      "kingdomId": "merchants",
+      "slug": "aurean-compact",
+      "name": "Aurean Compact"
+    },
+    "1468298380387029143": {
+      "kingdomId": "mages",
+      "slug": "verdant-sanctum",
+      "name": "Verdant Sanctum"
+    },
+    "1468101211377893376": {
+      "kingdomId": "cowboys",
+      "slug": "sunward-expanse",
+      "name": "Sunward Expanse"
+    },
+    "1467991835543605258": {
+      "kingdomId": "ninjas",
+      "slug": "obsidian-veil",
+      "name": "Obsidian Veil"
+    },
+    "1468006469478645831": {
+      "kingdomId": "kingdom8",
+      "slug": "crownlands",
+      "name": "Crownlands"
+    },
+    "1469022049187004439": {
+      "kingdomId": "kingdom2",
+      "slug": "blighted-covenant",
+      "name": "Blighted Covenant"
+    }
+  },
+  "general": {
+    "1462980242342940775": {
+      "type": "general",
+      "name": "General",
+      "note": "No kingdom-specific info here"
+    },
+    "1468260564663926949": {
+      "type": "offtopic",
+      "name": "Corvus Offtopic",
+      "note": "Casual chat"
+    }
+  }
+}
