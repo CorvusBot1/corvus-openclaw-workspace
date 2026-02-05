@@ -1,0 +1,652 @@
+{
+  "timestamp": "2026-02-05T15:53:52.391Z",
+  "totalProvinces": 64,
+  "byBiome": {
+    "grassland": 16,
+    "plains": 19,
+    "forest": 20,
+    "hills": 9
+  },
+  "renames": [
+    {
+      "id": "kingdom2_p0",
+      "oldName": "Bright March",
+      "newName": "Northern Sleeping Lea",
+      "biome": "grassland",
+      "center": {
+        "q": 21,
+        "r": -7
+      }
+    },
+    {
+      "id": "pirates_p0",
+      "oldName": "Open Weald",
+      "newName": "Western Sleeping Lea",
+      "biome": "grassland",
+      "center": {
+        "q": 8,
+        "r": 4
+      }
+    },
+    {
+      "id": "pirates_p1",
+      "oldName": "Verdant Vale",
+      "newName": "Southern Sleeping Lea",
+      "biome": "grassland",
+      "center": {
+        "q": 6,
+        "r": 14
+      }
+    },
+    {
+      "id": "ninjas_p1",
+      "oldName": "Lush Crossing",
+      "newName": "Northern Grey Pastures",
+      "biome": "grassland",
+      "center": {
+        "q": 56,
+        "r": 1
+      }
+    },
+    {
+      "id": "neutral_23",
+      "oldName": "Wild Fields",
+      "newName": "Eastern Grey Pastures",
+      "biome": "grassland",
+      "center": {
+        "q": 67,
+        "r": 4
+      }
+    },
+    {
+      "id": "merchants_p0",
+      "oldName": "Bright Fields",
+      "newName": "Windfield",
+      "biome": "grassland",
+      "center": {
+        "q": 41,
+        "r": 8
+      }
+    },
+    {
+      "id": "kingdom8_p3",
+      "oldName": "Lush Hollow",
+      "newName": "Emerald Green",
+      "biome": "grassland",
+      "center": {
+        "q": 71,
+        "r": 16
+      }
+    },
+    {
+      "id": "neutral_6",
+      "oldName": "Verdant March",
+      "newName": "Western Grey Pastures",
+      "biome": "grassland",
+      "center": {
+        "q": 35,
+        "r": 17
+      }
+    },
+    {
+      "id": "neutral_30",
+      "oldName": "Lush Shire",
+      "newName": "Oakvale",
+      "biome": "grassland",
+      "center": {
+        "q": 50,
+        "r": 21
+      }
+    },
+    {
+      "id": "neutral_2",
+      "oldName": "Blooming Hollow",
+      "newName": "Southern Grey Pastures",
+      "biome": "grassland",
+      "center": {
+        "q": 42,
+        "r": 23
+      }
+    },
+    {
+      "id": "neutral_16",
+      "oldName": "Open March",
+      "newName": "Brook Green",
+      "biome": "grassland",
+      "center": {
+        "q": 21,
+        "r": 32
+      }
+    },
+    {
+      "id": "neutral_20",
+      "oldName": "Verdant Wood",
+      "newName": "Golden Fields",
+      "biome": "grassland",
+      "center": {
+        "q": 29,
+        "r": 36
+      }
+    },
+    {
+      "id": "mages_p0",
+      "oldName": "Verdant Vale",
+      "newName": "Fern Fields",
+      "biome": "grassland",
+      "center": {
+        "q": 10,
+        "r": 51
+      }
+    },
+    {
+      "id": "cowboys_p3",
+      "oldName": "Bright Glen",
+      "newName": "Eastern Meadows of Oak",
+      "biome": "grassland",
+      "center": {
+        "q": 64,
+        "r": 25
+      }
+    },
+    {
+      "id": "cowboys_p2",
+      "oldName": "Lush Shire",
+      "newName": "Western Meadows of Oak",
+      "biome": "grassland",
+      "center": {
+        "q": 57,
+        "r": 28
+      }
+    },
+    {
+      "id": "neutral_22",
+      "oldName": "Bright Moor",
+      "newName": "Oak Meadow",
+      "biome": "grassland",
+      "center": {
+        "q": 60,
+        "r": -20
+      }
+    },
+    {
+      "id": "pirates_p2",
+      "oldName": "Amber Fell",
+      "newName": "Hollow Steppes",
+      "biome": "plains",
+      "center": {
+        "q": 6,
+        "r": 33
+      }
+    },
+    {
+      "id": "kingdom2_p1",
+      "oldName": "Windswept Tor",
+      "newName": "Eastern Ancient Barrens",
+      "biome": "plains",
+      "center": {
+        "q": 31,
+        "r": -12
+      }
+    },
+    {
+      "id": "neutral_34",
+      "oldName": "Vast Heath",
+      "newName": "Western Ancient Barrens",
+      "biome": "plains",
+      "center": {
+        "q": 18,
+        "r": -5
+      }
+    },
+    {
+      "id": "kingdom3_p3",
+      "oldName": "Sunlit Vale",
+      "newName": "Hollow Plains",
+      "biome": "plains",
+      "center": {
+        "q": 77,
+        "r": -36
+      }
+    },
+    {
+      "id": "merchants_p2",
+      "oldName": "Golden Reach",
+      "newName": "Northern Lonely Plains",
+      "biome": "plains",
+      "center": {
+        "q": 26,
+        "r": 16
+      }
+    },
+    {
+      "id": "neutral_32",
+      "oldName": "Fertile Glen",
+      "newName": "Grey Expanse",
+      "biome": "plains",
+      "center": {
+        "q": 34,
+        "r": 25
+      }
+    },
+    {
+      "id": "neutral_3",
+      "oldName": "Windswept Fell",
+      "newName": "Eastern Lonely Plains",
+      "biome": "plains",
+      "center": {
+        "q": 37,
+        "r": 31
+      }
+    },
+    {
+      "id": "neutral_11",
+      "oldName": "Harvest Crossing",
+      "newName": "Southern Lonely Plains",
+      "biome": "plains",
+      "center": {
+        "q": 28,
+        "r": 42
+      }
+    },
+    {
+      "id": "neutral_26",
+      "oldName": "Rolling Vale",
+      "newName": "Northern Goldenmarch",
+      "biome": "plains",
+      "center": {
+        "q": 73,
+        "r": -18
+      }
+    },
+    {
+      "id": "neutral_19",
+      "oldName": "Rolling Reach",
+      "newName": "Hidden Barrens",
+      "biome": "plains",
+      "center": {
+        "q": 72,
+        "r": -11
+      }
+    },
+    {
+      "id": "neutral_8",
+      "oldName": "Rolling Reach",
+      "newName": "Wolfreach",
+      "biome": "plains",
+      "center": {
+        "q": 64,
+        "r": -4
+      }
+    },
+    {
+      "id": "ninjas_p3",
+      "oldName": "Windswept Hollow",
+      "newName": "Western Goldenmarch",
+      "biome": "plains",
+      "center": {
+        "q": 50,
+        "r": 3
+      }
+    },
+    {
+      "id": "neutral_29",
+      "oldName": "Fertile Vale",
+      "newName": "Grey Barrens",
+      "biome": "plains",
+      "center": {
+        "q": 44,
+        "r": 10
+      }
+    },
+    {
+      "id": "ninjas_p0",
+      "oldName": "Golden Glen",
+      "newName": "Southern Goldenmarch",
+      "biome": "plains",
+      "center": {
+        "q": 62,
+        "r": 10
+      }
+    },
+    {
+      "id": "neutral_9",
+      "oldName": "Windswept Downs",
+      "newName": "Serpent Steppes",
+      "biome": "plains",
+      "center": {
+        "q": 52,
+        "r": 11
+      }
+    },
+    {
+      "id": "kingdom8_p0",
+      "oldName": "Sunlit March",
+      "newName": "Eastern Goldenmarch",
+      "biome": "plains",
+      "center": {
+        "q": 75,
+        "r": 18
+      }
+    },
+    {
+      "id": "neutral_25",
+      "oldName": "Windswept Fell",
+      "newName": "Brookmarch",
+      "biome": "plains",
+      "center": {
+        "q": 60,
+        "r": 20
+      }
+    },
+    {
+      "id": "neutral_27",
+      "oldName": "Amber Weald",
+      "newName": "Ancientmoor",
+      "biome": "plains",
+      "center": {
+        "q": 67,
+        "r": 22
+      }
+    },
+    {
+      "id": "cowboys_p1",
+      "oldName": "Golden Wood",
+      "newName": "Plains of Iron",
+      "biome": "plains",
+      "center": {
+        "q": 50,
+        "r": 30
+      }
+    },
+    {
+      "id": "neutral_0",
+      "oldName": "Ancient Crossing",
+      "newName": "Northern Thorn Woods",
+      "biome": "forest",
+      "center": {
+        "q": 43,
+        "r": -17
+      }
+    },
+    {
+      "id": "neutral_21",
+      "oldName": "Shaded Dale",
+      "newName": "Eastern Thorn Woods",
+      "biome": "forest",
+      "center": {
+        "q": 52,
+        "r": -9
+      }
+    },
+    {
+      "id": "kingdom2_p4",
+      "oldName": "Ancient Fields",
+      "newName": "Golden Thicket",
+      "biome": "forest",
+      "center": {
+        "q": 29,
+        "r": -6
+      }
+    },
+    {
+      "id": "kingdom2_p2",
+      "oldName": "Dark Reach",
+      "newName": "Western Thorn Woods",
+      "biome": "forest",
+      "center": {
+        "q": 22,
+        "r": -1
+      }
+    },
+    {
+      "id": "pirates_p4",
+      "oldName": "Misty Heath",
+      "newName": "Golden Grove",
+      "biome": "forest",
+      "center": {
+        "q": 10,
+        "r": 1
+      }
+    },
+    {
+      "id": "neutral_4",
+      "oldName": "Evergreen Vale",
+      "newName": "Twilightshade",
+      "biome": "forest",
+      "center": {
+        "q": 31,
+        "r": 1
+      }
+    },
+    {
+      "id": "neutral_13",
+      "oldName": "Dark Hollow",
+      "newName": "Twilight Grove",
+      "biome": "forest",
+      "center": {
+        "q": 39,
+        "r": 1
+      }
+    },
+    {
+      "id": "neutral_28",
+      "oldName": "Green Weald",
+      "newName": "Moss Woods",
+      "biome": "forest",
+      "center": {
+        "q": 45,
+        "r": 1
+      }
+    },
+    {
+      "id": "ninjas_p2",
+      "oldName": "Evergreen Heath",
+      "newName": "Dawn Forest",
+      "biome": "forest",
+      "center": {
+        "q": 48,
+        "r": 10
+      }
+    },
+    {
+      "id": "merchants_p3",
+      "oldName": "Shaded Vale",
+      "newName": "Southern Thorn Woods",
+      "biome": "forest",
+      "center": {
+        "q": 34,
+        "r": 11
+      }
+    },
+    {
+      "id": "neutral_5",
+      "oldName": "Shaded Weald",
+      "newName": "Woods of Wolf",
+      "biome": "forest",
+      "center": {
+        "q": 22,
+        "r": 14
+      }
+    },
+    {
+      "id": "merchants_p5",
+      "oldName": "Misty Weald",
+      "newName": "Elm Grove",
+      "biome": "forest",
+      "center": {
+        "q": 27,
+        "r": 20
+      }
+    },
+    {
+      "id": "neutral_15",
+      "oldName": "Ancient Tor",
+      "newName": "Elm Copse",
+      "biome": "forest",
+      "center": {
+        "q": 29,
+        "r": 28
+      }
+    },
+    {
+      "id": "kingdom3_p0",
+      "oldName": "Deep Heath",
+      "newName": "Northern Mist Forest",
+      "biome": "forest",
+      "center": {
+        "q": 72,
+        "r": -30
+      }
+    },
+    {
+      "id": "kingdom3_p1",
+      "oldName": "Ancient Hollow",
+      "newName": "Shadow Thicket",
+      "biome": "forest",
+      "center": {
+        "q": 66,
+        "r": -26
+      }
+    },
+    {
+      "id": "kingdom3_p4",
+      "oldName": "Misty Weald",
+      "newName": "Eastern Mist Forest",
+      "biome": "forest",
+      "center": {
+        "q": 75,
+        "r": -26
+      }
+    },
+    {
+      "id": "neutral_14",
+      "oldName": "Whispering Reach",
+      "newName": "Southern Mist Forest",
+      "biome": "forest",
+      "center": {
+        "q": 61,
+        "r": -12
+      }
+    },
+    {
+      "id": "mages_p3",
+      "oldName": "Whispering Vale",
+      "newName": "Woods of Lynx",
+      "biome": "forest",
+      "center": {
+        "q": 19,
+        "r": 47
+      }
+    },
+    {
+      "id": "kingdom8_p1",
+      "oldName": "Whispering Tor",
+      "newName": "Northern Frost Grove",
+      "biome": "forest",
+      "center": {
+        "q": 75,
+        "r": 7
+      }
+    },
+    {
+      "id": "kingdom8_p4",
+      "oldName": "Green Heath",
+      "newName": "Southern Frost Grove",
+      "biome": "forest",
+      "center": {
+        "q": 67,
+        "r": 18
+      }
+    },
+    {
+      "id": "kingdom3_p2",
+      "oldName": "Rolling Fell",
+      "newName": "Stag Heights",
+      "biome": "hills",
+      "center": {
+        "q": 64,
+        "r": -29
+      }
+    },
+    {
+      "id": "prov_1770239572605_1",
+      "oldName": "Crest Shire",
+      "newName": "Northern Bear Ridge",
+      "biome": "hills",
+      "center": {
+        "q": 37,
+        "r": -7
+      }
+    },
+    {
+      "id": "merchants_p1",
+      "oldName": "Ridge Downs",
+      "newName": "Southern Bear Ridge",
+      "biome": "hills",
+      "center": {
+        "q": 30,
+        "r": 8
+      }
+    },
+    {
+      "id": "mages_p2",
+      "oldName": "Crest Weald",
+      "newName": "Western Azure Knolls",
+      "biome": "hills",
+      "center": {
+        "q": 15,
+        "r": 39
+      }
+    },
+    {
+      "id": "mages_p1",
+      "oldName": "Windward Weald",
+      "newName": "Eastern Azure Knolls",
+      "biome": "hills",
+      "center": {
+        "q": 19,
+        "r": 42
+      }
+    },
+    {
+      "id": "neutral_24",
+      "oldName": "Broken Downs",
+      "newName": "Eastern Hawk Highlands",
+      "biome": "hills",
+      "center": {
+        "q": 45,
+        "r": 33
+      }
+    },
+    {
+      "id": "cowboys_p0",
+      "oldName": "Ridge Dale",
+      "newName": "Western Hawk Highlands",
+      "biome": "hills",
+      "center": {
+        "q": 39,
+        "r": 37
+      }
+    },
+    {
+      "id": "neutral_1",
+      "oldName": "Rolling Heath",
+      "newName": "Brook Hills",
+      "biome": "hills",
+      "center": {
+        "q": 45,
+        "r": -9
+      }
+    },
+    {
+      "id": "neutral_18",
+      "oldName": "Ridge Tor",
+      "newName": "Whitefell",
+      "biome": "hills",
+      "center": {
+        "q": 75,
+        "r": -6
+      }
+    }
+  ]
+}
