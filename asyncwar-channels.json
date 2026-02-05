@@ -1,4 +1,12 @@
 {
+  "playerKingdoms": {
+    "pirates": { "player": "Adam", "discord": "NeverSpeakAgain", "channelId": "1467991796683505877" },
+    "mages": { "player": "Brad", "discord": "Brad", "channelId": "1468298380387029143" },
+    "kingdom8": { "player": "Jay", "discord": "Treize", "channelId": "1468006469478645831" },
+    "ninjas": { "player": "Ralph", "discord": "Raine", "channelId": "1467991835543605258" },
+    "kingdom3": { "player": "Will", "discord": "thatwiillguy", "channelId": "1468299384012935377" }
+  },
+  "gmKingdoms": ["merchants", "cowboys", "kingdom2"],
   "kingdoms": {
     "1467991796683505877": {
       "kingdomId": "pirates",
