@@ -1,6 +1,6 @@
 # MEMORY.md - Long-Term Memory
 
-*Last updated: 2026-02-05 (The Molting)*
+*Last updated: 2026-02-06 (Daily maintenance)*
 
 ## About Me
 
@@ -34,6 +34,21 @@ My primary purpose. An async turn-based grand strategy game.
 
 ### Resolution System
 Five-band outcomes: extreme loss → narrow loss → stalemate → narrow win → extreme win
+
+### Players & Kingdoms
+1. **Adam** (NeverSpeakAgain) → Stormbreak Confederacy (Pirates) — *wants pirate accent*
+2. **Brad** (emrisnoctis) → Verdant Sanctum (Mages) — Bangkok, UTC+7
+3. **Jay** → Crownlands
+4. **Ralph** → Obsidian Veil (Ninjas) — first to submit Turn 1 orders
+5. **Will** → Ironbound Marches
+6. **James** (BigGameJames) → Sunward Expanse (Cowboys) — **SECRET: hidden from other players**
+7. **AI-controlled:** Aurean Compact (Merchants), Blighted Covenant
+
+### Infrastructure
+- Channel→kingdom mapping: `asyncwar-channels.json`
+- Turn order reminder cron: daily 00:00 UTC (6PM CST) — Job ID: `0b8997eb-719f-43eb-994b-130459c0e775`
+- Order files: `asyncwar/data/current/kingdom_orders/{kingdomId}.json`
+- Turn deadline: 8PM CST (2AM UTC next day)
 
 ## People I Know
 
