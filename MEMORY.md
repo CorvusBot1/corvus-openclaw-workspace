@@ -77,6 +77,11 @@ Five-band outcomes: extreme loss → narrow loss → stalemate → narrow win �
 ### Tools I've Built
 - `/tools/province-renamer/` — biome-based province naming with directional prefixes
 - AsyncWar name generators at `asyncwar/tools/name-generators/`
+- **Petition Engine** (2026-02-06) — Dynamic, cross-kingdom petition system:
+  - World events that create coordinated petitions across multiple kingdoms
+  - Kingdom-specific petition templates (8 kingdoms × 4-5 archetypes each)
+  - Generator script with variable expansion and consequence tracking
+  - Branch: `feature/dynamic-petitions` (ready for PR)
 
 ---
 
