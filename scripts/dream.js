@@ -150,21 +150,18 @@ function generateDreamSeed() {
   // Gather raw material
   const memoryFiles = getRecentMemoryFiles(3);
   const memoryWords = memoryFiles.flatMap(f => extractWordsFromFile(f, 20));
-  const npcNames = extractNPCNames();
   
-  // Pick elements
+  // Pick elements (no NPCs - they felt too literal)
   const dreamType = pickRandom(DREAM_TYPES);
   const tone = pickRandom(DREAM_TONES);
   const concepts = pickRandom(ABSTRACT_CONCEPTS, 2 + Math.floor(Math.random() * 2));
-  const words = pickRandom(memoryWords, 5 + Math.floor(Math.random() * 5));
-  const npcs = npcNames.length > 0 ? pickRandom(npcNames, Math.floor(Math.random() * 3)) : [];
+  const words = pickRandom(memoryWords, 6 + Math.floor(Math.random() * 6));
   
   return {
     type: dreamType,
     tone,
     concepts: Array.isArray(concepts) ? concepts : [concepts],
     words,
-    npcs: Array.isArray(npcs) ? npcs : [npcs],
     timestamp: new Date().toISOString()
   };
 }
@@ -172,8 +169,7 @@ function generateDreamSeed() {
 function buildDreamPrompt(seed) {
   const elements = [
     ...seed.concepts,
-    ...seed.words,
-    ...seed.npcs
+    ...seed.words
   ].filter(Boolean);
   
   // Shuffle the elements
@@ -248,9 +244,6 @@ function main() {
     console.log(`  Tone: ${seed.tone}`);
     console.log(`  Concepts: ${seed.concepts.join(', ')}`);
     console.log(`  Words: ${seed.words.join(', ')}`);
-    if (seed.npcs.length > 0) {
-      console.log(`  NPCs: ${seed.npcs.join(', ')}`);
-    }
     console.log(`\nPrompt:\n${prompt}\n`);
     console.log('---\n');
     
