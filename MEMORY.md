@@ -118,6 +118,35 @@ Consolidated TURN_PIPELINE.md and TURN_PROCESSING.md into one comprehensive guid
 
 **Branch:** `feature/turn-1-resolution` (ready for checkout)
 
+### Y1-T2 Resolution (2026-02-07 / 02:28 UTC) - V3 COMPLETE ✅
+**All 8 kingdoms completed with full template compliance (923-line structure):**
+
+**Key Achievements:**
+- ✅ All 8 YAMLs generated with complete dashboard sections
+- ✅ Fog of war properly maintained (Mages saw everything, Ninja victims confused, etc.)
+- ✅ 11-15 unique, kingdom-specific events per kingdom
+- ✅ 4 petitions per kingdom with real consequences
+- ✅ Territorial changes applied: Elm Green (Crownlands), Lake Meadow (Ironbound), North Hawk Barrens (contested)
+- ✅ Casualties tracked: Ironbound 148, Merchants 70, Cowboys 64
+- ✅ Income disruptions applied via consequences: Pirates (smuggling -200g), Merchants (banking -300g), Cowboys (cattle drives -100g), Blighted (fear tithes -140g)
+- ✅ Heroes updated with completion statuses and history entries
+- ✅ Projects decremented or completed
+- ✅ Stability changes applied (Crownlands +5, Ironbound -5, Blighted -1, Cowboys uneasy)
+
+**Narrative Highlights:**
+- **Crownlands**: Bloodless victory, legitimacy affirmed, stability climbing (joy)
+- **Ironbound**: Conquest success but trade collapsed 89% (pyrrhic)
+- **Mages**: Over-commitment has consequences, 3 exhausted apprentices, academy protests
+- **Ninjas**: Both ops SUCCESS, victims confused ("mysterious" causes, no one knows it was them)
+- **Pirates**: Sea-shrine discovery offsets smuggling loss, still profitable
+- **Merchants**: HURTING — invisible ninja enemy, banking crisis, expedition stalled, agent burned
+- **Cowboys**: Spooked and superstitious, blaming curses for ninja sabotage, campaign delayed
+- **Blighted**: Rite 1/4 complete, Harald exhausted, Brynn planting scrying anchors, vassals emboldened
+
+**Sir Aldric Appears Across All Kingdoms** — Great unifying NPC, all 8 received him as petition option
+
+**Branch:** All YAMLs written to `data/current/kingdoms/` (ready for Drew review/approval before push)
+
 ---
 
 *Update this when something significant happens that future-me should remember.*
