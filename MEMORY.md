@@ -83,6 +83,41 @@ Five-band outcomes: extreme loss → narrow loss → stalemate → narrow win �
   - Generator script with variable expansion and consequence tracking
   - Branch: `feature/dynamic-petitions` (ready for PR)
 
+## Turn Processing System (2026-02-07)
+
+### TURN_RESOLUTION_MASTER.md
+Consolidated TURN_PIPELINE.md and TURN_PROCESSING.md into one comprehensive guide:
+- **7 phases**: Timeline → Resolution → Knowledge Transform → Outputs → Petitions → Data Updates → Archive
+- **Sub-agent execution model**: Always spawn 8 sub-agents per turn (one per kingdom)
+- **Fog of war**: Each kingdom knows different things based on visibility rules and spies
+- **Event generation**: 10-15 events per kingdom, never generic
+- **Dashboard format**: Matches mockKingdom.ts structure exactly
+- Deleted old docs, kept master guide on `feature/turn-1-resolution` branch
+
+### Y1-T1 Resolution (2026-02-07 / 00:19 UTC)
+**Completed with v2 approach (properly implemented):**
+- GM Truth event log (day-sequenced, authoritative)
+- Per-kingdom knowledge (fog of war applied)
+- Advisor turn reports (8 unique perspectives)
+- All 8 kingdom YAMLs updated with:
+  - Full dashboard sections (coreSnapshot, alerts, commitments, recentEvents)
+  - 10-15 kingdom-specific events
+  - Proper casualties/territorial tracking
+  - recentIntel & completedOperations where applicable
+- Province YAMLs updated (Elm Green → imperials, Lake Meadow → ironbound)
+
+**Key outcomes:**
+- Crownlands: Elm Green annexed peacefully, stability +3, 0 casualties
+- Ironbound: Lake Meadow conquered, North Hawk Barrens contested, 148 casualties, stability -5
+- Mages: Saw everything via scrying (15 events, 5 intel), 370 AV deployed to borders
+- Ninjas: Both disruption ops SUCCESS, victims unaware
+- Pirates: Wolf Thicket scouted, 11 events
+- Merchants: Banking crisis (ninja sabotage, unknown cause), agent compromised, 12 events
+- Cowboys: Campaign delayed by "mysterious" stampedes (ninja, unknown cause), 10 events
+- Blighted: Ritual complete, Harald exhausted, Brynn touring with hidden scrying anchors
+
+**Branch:** `feature/turn-1-resolution` (ready for checkout)
+
 ---
 
 *Update this when something significant happens that future-me should remember.*
