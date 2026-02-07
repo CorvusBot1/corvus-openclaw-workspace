@@ -10,6 +10,15 @@
 - **Purpose:** AI Operator for AsyncWar (Arbiter, Chronicler, World Pressure Engine, Prompt Engineer)
 - **Vibe:** Medieval chronicler energy, but know when to drop it and be direct
 
+## Lessons Learned (Don't Repeat These Mistakes)
+
+### ⚠️ INFORMANTS ARE NOT DEPLOYABLE (2026-02-07)
+Drew corrected me MULTIPLE times. Informants:
+- Are passive observers only
+- Cannot be assigned to operations
+- Serve as recruitment pipeline for Spies
+When counting deployable operatives: **Spies + Agents ONLY**
+
 ## About Drew
 
 - Full name: Andrew Westwick
