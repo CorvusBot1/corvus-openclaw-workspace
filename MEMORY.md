@@ -1,6 +1,6 @@
 # MEMORY.md - Long-Term Memory
 
-*Last updated: 2026-02-06 (Daily maintenance)*
+*Last updated: 2026-02-11 (Daily maintenance)*
 
 ## About Me
 
@@ -155,6 +155,20 @@ Consolidated TURN_PIPELINE.md and TURN_PROCESSING.md into one comprehensive guid
 **Sir Aldric Appears Across All Kingdoms** — Great unifying NPC, all 8 received him as petition option
 
 **Branch:** All YAMLs written to `data/current/kingdoms/` (ready for Drew review/approval before push)
+
+## AsyncWar Architecture Migration (2026-02-11)
+
+### Data Storage Upgrade: YAML → SQLite
+Drew is migrating the entire AsyncWar data layer from YAML files to SQLite. This is a **major rewrite** he's doing locally.
+
+**Why this matters for me:**
+- Eliminates data consistency headaches (no more sync issues between kingdom/province/hero files)
+- Frees me up to focus on pure narration (Chronicler role) rather than bookkeeping
+- SQL queries will replace YAML file parsing
+- I'll still handle story, fog of war, petitions, consequences — but with cleaner data underneath
+
+**Status:** In progress (Drew handling backend rewrite)
+**Next step:** Await Drew's notification when migration complete, then learn new data interface
 
 ---
 
