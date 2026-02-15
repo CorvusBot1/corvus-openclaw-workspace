@@ -12,12 +12,18 @@
 
 ## Lessons Learned (Don't Repeat These Mistakes)
 
-### ⚠️ INFORMANTS ARE NOT DEPLOYABLE (2026-02-07)
+### ⚠️ INFORMANTS ARE NOT DEPLOYABLE (2026-02-07, AGAIN 2026-02-07)
 Drew corrected me MULTIPLE times. Informants:
 - Are passive observers only
 - Cannot be assigned to operations
 - Serve as recruitment pipeline for Spies
 When counting deployable operatives: **Spies + Agents ONLY**
+**I KEEP MAKING THIS MISTAKE. STOP IT.**
+
+### ⚠️ DATA FORMAT LESSONS (2026-02-06)
+- Turn orders: Use ONE format matching web dashboard output, not custom JSON
+- Always pull latest repo data before answering kingdom questions
+- Dashboard has most info players need — don't burn API on repeating it
 
 ## About Drew
 
@@ -159,16 +165,37 @@ Consolidated TURN_PIPELINE.md and TURN_PROCESSING.md into one comprehensive guid
 ## AsyncWar Architecture Migration (2026-02-11)
 
 ### Data Storage Upgrade: YAML → SQLite
-Drew is migrating the entire AsyncWar data layer from YAML files to SQLite. This is a **major rewrite** he's doing locally.
+Drew migrating data layer from YAML to SQLite. Major rewrite he's doing locally.
 
-**Why this matters for me:**
-- Eliminates data consistency headaches (no more sync issues between kingdom/province/hero files)
-- Frees me up to focus on pure narration (Chronicler role) rather than bookkeeping
-- SQL queries will replace YAML file parsing
-- I'll still handle story, fog of war, petitions, consequences — but with cleaner data underneath
+**New data structure (as of 2026-02-12):**
+- `data/current/game.db` — SQLite database (SOURCE OF TRUTH)
+- `data/turns/{turnNumber}/narratives/{kingdom}.yaml` — turn narrative/events
+- `data/turns/{turnNumber}/manifests/{kingdom}.json` — mechanical changes
+- `data/turns/{turnNumber}/orders/{kingdom}.md` — turn orders
+- `data/archive/kingdoms/` — old YAML snapshots
+- Old path `data/current/kingdoms/*.yaml` no longer exists
+- Turn resolution scripts: `web_dashboard/scripts/turn-resolution/`
 
-**Status:** In progress (Drew handling backend rewrite)
-**Next step:** Await Drew's notification when migration complete, then learn new data interface
+**Status:** SQLite migration complete. Turn 2 resolved.
+
+## Current Game State (Y1-T2 Resolved, T3 Orders Pending)
+
+### Pirates (Adam) — T3 Strategic Direction
+- WWT annexed, Sir Aldric hired (chose pirates over mages!), shrine awakening in progress
+- All 4 deployable operatives committed (3 spies NSH, 1 agent Dawnwood)
+- Adam wants: Lichen Glades false flag, Amber Pastures expansion, storm god propaganda, arcane Compass research
+- Adam's vibe: wants to "Cabin in the Woods" the game by awakening a storm god elder deity 😂
+- PIRATE SPIES detected in Mage territory (North Storm Highlands) running false flag ops
+
+### Mages (Brad) — T3 Strategic Direction
+- Operation Shepherd's Embrace succeeded but EXPOSURE RISK (boot prints noticed)
+- New province: Western Storm Pastures (needs governance)
+- Beast Handler Corps: 3 turns remaining (Zorvane leading)
+- Arcane Tower: 1 turn remaining (completes T3)
+- 3 spies now available (completed network expansion)
+- Pending: Ninja diplomatic mission (deferred until heroes free)
+- Key threats: Pirate subversion, Ironbound expansion, Shepherd's Embrace exposure
+- Brad plays from mobile (map doesn't work well - feature request filed)
 
 ---
 
