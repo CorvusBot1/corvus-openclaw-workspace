@@ -197,6 +197,15 @@ Drew migrating data layer from YAML to SQLite. Major rewrite he's doing locally.
 - Key threats: Pirate subversion, Ironbound expansion, Shepherd's Embrace exposure
 - Brad plays from mobile (map doesn't work well - feature request filed)
 
+## Facebook Monitor (2026-04-14)
+
+Drew asked me to monitor a public Facebook profile (Erica Pullens) for new posts hourly.
+- **Directory:** `workspace/facebook-monitor/`
+- **Tech:** Playwright headless Chromium (only way to scrape Facebook — all non-browser requests blocked)
+- **Cron Job:** `01b4be05-e8de-4626-a94c-4debb637b80d` (every hour, isolated session)
+- **Notifications:** DM Drew on Discord when new posts detected
+- **Extensible:** Add more profiles to `config.json`
+
 ---
 
 *Update this when something significant happens that future-me should remember.*
