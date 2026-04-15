@@ -132,19 +132,43 @@ async function main() {
       };
     }
 
+    // Append to run log
+    if (!state.runLog) state.runLog = [];
+    const runEntry = {
+      time: new Date().toISOString(),
+      hasNewPosts: results.length > 0,
+      newPosts: results.length > 0 ? results : undefined
+    };
+    state.runLog.push(runEntry);
+
+    // Keep only last 24 entries (24 hours of hourly runs)
+    if (state.runLog.length > 24) {
+      state.runLog = state.runLog.slice(-24);
+    }
+
     fs.writeFileSync(STATE_PATH, JSON.stringify(state, null, 2));
   } finally {
     await browser.close();
   }
 
-  // Output summary for the cron agent
+  // Output for the cron agent
   if (results.length > 0) {
+    // NEW POSTS — immediate alert
     console.log('\n---ALERT---');
     for (const r of results) {
-      console.log(`NEW POSTS on ${r.profile} (${r.url}):`);
+      console.log(`NEW POSTS detected:`);
       for (const p of r.newPosts) {
         console.log(`  [${p.time}] ${p.text}`);
       }
+    }
+  } else {
+    // No new posts — output run log summary for periodic digest
+    const log = state.runLog || [];
+    console.log('\n---NO_CHANGE---');
+    console.log(`Run log (${log.length} entries):`);
+    for (const entry of log) {
+      const status = entry.hasNewPosts ? 'NEW POSTS' : 'no update';
+      console.log(`  ${entry.time} — ${status}`);
     }
   }
 }
